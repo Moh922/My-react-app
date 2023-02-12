@@ -10,7 +10,7 @@ function NewMeetupsPages () {
         headers.append("Accept", "application/json");
         headers.append("Origin", "htttp://localhost:3000");
         fetch(
-            'https://adding-meetups-default-rtdb.firebaseio.com//meetups.json',
+            'https://react-meetups-9e67b-default-rtdb.firebaseio.com//meetups.json',
           {
             method: 'POST',
             body: JSON.stringify(meetupData),
